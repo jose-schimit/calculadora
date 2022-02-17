@@ -1,15 +1,15 @@
-*{margin: 0; padding: 0; box-sizing: 0; text-decoration: none;}
+*{margin: 0; padding: 0; box-sizing: 0; text-decoration: none; font-family: Arial, Helvetica, sans-serif;}
 .containner{
     width: 90%;
     margin: auto;
 }
 .teclado{
     width: 30%;
-    margin: 40px auto;
-    padding: 10px;
+    margin: 60px auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
     background-color: rgb(240, 50, 161);
     border-radius: 5%;
-    position: relative;
     box-shadow: 0px 0px 50px 10px rgb(189, 185, 185);
 }
 .btn{
@@ -25,12 +25,17 @@
 }
 
 .visor{
-    width: 90%;
+    width: 80%;
     height: 80px;
     background-color: rgb(205, 221, 235);
-    margin: 40px auto;
+    margin: 20px auto;
     border: 10px solid black;
     font-size: 50pt;
     text-align: right;
     overflow: hidden;
+}
+
+.row{
+    width: 90%;
+    margin: auto;
 }
