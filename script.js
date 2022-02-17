@@ -1,6 +1,6 @@
 //função para limpar o display
 function limpar(){
-    document.getElementById("visor").innerHTML = 0
+    document.getElementById("visor").innerHTML = 0;
 }
 
 //funcão para setar o némero zero no display
