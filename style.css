@@ -1,0 +1,36 @@
+*{margin: 0; padding: 0; box-sizing: 0; text-decoration: none;}
+.containner{
+    width: 90%;
+    margin: auto;
+}
+.teclado{
+    width: 30%;
+    margin: 40px auto;
+    padding: 10px;
+    background-color: rgb(240, 50, 161);
+    border-radius: 5%;
+    position: relative;
+    box-shadow: 0px 0px 50px 10px rgb(189, 185, 185);
+}
+.btn{
+    width: 20%;
+    height: 50px;
+    padding: 14px;
+    margin: 10px 0px 10px 10px;
+    background-color: black;
+    border: none;
+    border-radius: 10%;
+    color: white;
+    font-size: 20pt;
+}
+
+.visor{
+    width: 90%;
+    height: 80px;
+    background-color: rgb(205, 221, 235);
+    margin: 40px auto;
+    border: 10px solid black;
+    font-size: 50pt;
+    text-align: right;
+    overflow: hidden;
+}
