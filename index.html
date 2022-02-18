@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link ref="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">  
 </head>
 <body>
     <div class="containner">
@@ -11,7 +12,7 @@
             <div class="visor" id="visor">
             </div>
             <div class="row">
-                <button class="btn" style="width: 148px;" onclick="limpar()">C</button>
+                <button class="btn btngrande" onclick="limpar()">C</button>
                 <button class="btn" value="%" onclick="porcentagem()" >%</button>
                 <button class="btn" value="/" onclick="display('/')">/</button>
             </div>
@@ -34,11 +35,13 @@
                 <button class="btn"  value="+" onclick="display('+')">+</button>
             </div>
             <div class="row">
-                <button class="btn" style="width: 148px;" value="0" onclick="display('0')">0</button>
+                <button class="btn btngrande" value="0" onclick="display('0')">0</button>
                 <button class="btn" value="." onclick="display('.')">.</button>
                 <button class="btn" value="=" onclick="calcular()">=</button>
             </div>
+
         </div>
+        <footer><div class="footer">&copy Jose Schimit</div></footer>
     </div>
 </body>
 <script src="script.js"></script>
