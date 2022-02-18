@@ -3,19 +3,20 @@
     width: 90%;
     margin: auto;
 }
-
 .teclado{
-    margin: 15px auto;
-    padding-top: 15px;
-    padding-bottom: 30px;
+    width: 20%;
+    margin: 50px auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
     background-color: rgb(240, 50, 161);
     border-radius: 5%;
     box-shadow: 0px 0px 50px 10px rgb(189, 185, 185);
+    border: 1px solid red;
 }
 .btn{
     width: 20%;
     height: 50px;
-    margin: 5px 5px 5px 5px;
+    margin: 6px 6px 6px 6px;
     background-color: black;
     border: none;
     border-radius: 10%;
@@ -23,10 +24,10 @@
     font-size: 20pt;
 }
 .visor{
-    width: 80%;
+    width: 85%;
     height: 90px;
     background-color: rgb(205, 221, 236);
-    margin: 30px auto;
+    margin: 20px auto;
     border: 10px solid black;
     font-size: 50pt;
     text-align: right;
@@ -34,12 +35,12 @@
     overflow: hidden;
 }
 .row{
-    width: 90%;
+    width: 95%;
     margin: auto;
     text-align: center;
 }
 .btngrande{
-    width: 44%;
+    width: 44% !important;
 }
 .footer{
     width: 30%;
@@ -48,13 +49,13 @@
 }
 @media(max-width: 767px) {
     .teclado{
-        width: 70%;
+        width: 75%;
    }
 }
 
 @media(min-width:768px) and (max-width:1024px){
     .teclado{
-        margin-top: 450px;
+        margin-top: 350px;
         padding-top: 40px;
         padding-bottom: 40px;
         width: 80%;
@@ -77,15 +78,29 @@
     .row{
         width: 100%;
     }
-    .btngrande{
-        width: 44%;
+    .footer{
+       font-size: 25pt;
     }
 }
 
 @media(min-width:1025px){
     .teclado{
-        width: 35%;
+       width: 35%;
     }
+    .btn{
+        height: 60px;
+        font-size: 30pt;
+        margin: 5px;
+     }
+     .visor{
+         width: 83%;
+         height: 90px;
+         margin: 20px auto;
+         font-size: 50pt;
+         text-align: right;
+         line-height: 90px;
+         overflow: hidden;
+     }
 }
 
 
