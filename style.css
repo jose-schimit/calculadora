@@ -1,153 +1,68 @@
 *{margin: 0; padding: 0; box-sizing: 0; text-decoration: none; font-family: Arial, Helvetica, sans-serif;}
-
-@media(max-width: 767px) {
-   .teclado{
-        width: 70%;
-        margin: 15px auto;
-        padding-top: 15px;
-        padding-bottom: 30px;
-        background-color: rgb(240, 50, 161);
-        border-radius: 5%;
-        box-shadow: 0px 0px 50px 10px rgb(189, 185, 185);
-   }
-
-   .btn{
-        width: 20%;
-        height: 50px;
-        margin: 5px 5px 5px 5px;
-        background-color: black;
-        border: none;
-        border-radius: 10%;
-        color: white;
-        font-size: 20pt;
-    }
-
-    .btngrande{
-        width: 44%;
-    }
-
-    .visor{
-        width: 80%;
-        height: 90px;
-        background-color: rgb(205, 221, 236);
-        margin: 30px auto;
-        border: 10px solid black;
-        font-size: 20pt;
-        text-align: right;
-        overflow: hidden;
-    }
-
-    .row{
-        width: 90%;
-        margin: auto;
-        text-align: center;
-    }
-
-    .footer{
-        width: 30%;
-        margin: auto;
-        text-align: center;
-    }
+.containner{
+    width: 90%;
+    margin: auto;
 }
 
-@media(min-width:768px) and (max-width:1125px){
-    .containner{
-        width: 90%;
-        margin: auto;
-    }
+.teclado{
+    width: 30%;
+    margin: 15px auto;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    background-color: rgb(240, 50, 161);
+    border-radius: 5%;
+    box-shadow: 0px 0px 50px 10px rgb(189, 185, 185);
+}
+.btn{
+    width: 20%;
+    height: 50px;
+    margin: 5px 5px 5px 5px;
+    background-color: black;
+    border: none;
+    border-radius: 10%;
+    color: white;
+    font-size: 20pt;
+}
+.visor{
+    width: 80%;
+    height: 90px;
+    background-color: rgb(205, 221, 236);
+    margin: 30px auto;
+    border: 10px solid black;
+    font-size: 50pt;
+    text-align: right;
+    line-height: 90px;
+    overflow: hidden;
+}
+.row{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.btngrande{
+    width: 44%;
+}
+.footer{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+@media(max-width: 767px) {
+    .teclado{
+        width: 70%;
+   }
+}
+
+@media(min-width:768px) and (max-width:1024px){
     .teclado{
         width: 50%;
-        margin: 20px auto;
-        padding-top: 10px;
-        padding-bottom: 20px;
-        background-color: rgb(240, 50, 161);
-        border-radius: 5%;
-        box-shadow: 0px 0px 50px 10px rgb(189, 185, 185);
     }
-    .btn{
-        width: 20%;
-        height: 50px;
-        margin: 10px 0px 10px 10px;
-        background-color: black;
-        border: none;
-        border-radius: 10%;
-        color: white;
-        font-size: 20pt;
-    }
-    
-    .visor{
-        width: 79%;
-        height: 80px;
-        background-color: rgb(205, 221, 236);
-        margin: 20px auto;
-        border: 10px solid black;
-        font-size: 50pt;
-        text-align: right;
-        overflow: hidden;
-    }
-    
-    .row{
-        width: 90%;
-        margin: auto;
-    }
-    .btngrande{
-        width: 44%;
-    }
-    .footer{
-        width: 30%;
-        margin: auto;
-        text-align: center;
-    }    
 }
 
-@media(min-width:1097px){
-    .containner{
-        width: 90%;
-        margin: auto;
-    }
+@media(min-width:1025px){
     .teclado{
-        width: 30%;
-        margin: 20px auto;
-        padding-top: 10px;
-        padding-bottom: 20px;
-        background-color: rgb(240, 50, 161);
-        border-radius: 5%;
-        box-shadow: 0px 0px 50px 10px rgb(189, 185, 185);
+        width: 35%;
     }
-    .btn{
-        width: 20%;
-        height: 50px;
-        margin: 10px 0px 10px 10px;
-        background-color: black;
-        border: none;
-        border-radius: 10%;
-        color: white;
-        font-size: 20pt;
-    }
-    
-    .visor{
-        width: 79%;
-        height: 80px;
-        background-color: rgb(205, 221, 236);
-        margin: 20px auto;
-        border: 10px solid black;
-        font-size: 50pt;
-        text-align: right;
-        overflow: hidden;
-    }
-    
-    .row{
-        width: 90%;
-        margin: auto;
-    }
-    .btngrande{
-        width: 44%;
-    }
-    .footer{
-        width: 30%;
-        margin: auto;
-        text-align: center;
-    }    
 }
 
 
