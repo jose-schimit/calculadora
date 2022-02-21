@@ -43,7 +43,8 @@
     width: 44% !important;
 }
 .footer{
-    width: 35%;
+    width: 100%;
+    font-size: 20pt;
     margin: auto;
     text-align: center;
 }
@@ -55,21 +56,23 @@
 
 @media(min-width:768px) and (max-width:1024px){
     .teclado{
-        width: 60%;
+        width: 90%;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
     .btn{
-       font-size: 30pt;
+       font-size: 60pt;
+       width: 19%;
+       height: 150px;
+       margin: 15px;
     }
     .visor{
-        width: 90%;
-        height: 100px;
-        font-size: 60pt;
+        width: 86%;
+        height: 250px;
+        font-size: 120pt;
         text-align: right;
-        line-height: 100px;
+        line-height: 250px;
         overflow: hidden;
-    }
-    .row{
-        width: 100%;
     }
 }
 
